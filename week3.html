@@ -1,0 +1,32 @@
+<head>
+  <title>Mini Project 1</title>
+  <link rel="stylesheet" href="week3.css">
+  <script src="week3.js"></script>
+</head>
+<body>
+  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+  <div class= "main">
+    <div class = "head1">
+      <h1>
+        Filter Fun 
+      </h1>
+    </div>
+    <div class = "candiv">
+      <canvas id="can"></canvas>
+      <div>
+        <span>Load Image :</span>
+        <input type="file" multi="false" accept="image/*" id="finput" onchange="UploadImage()" >
+      </div>
+    </div>
+    <div class=buttondiv>
+      <input type="button" value="Grayscale" onclick="doGray()" class="btn" >
+      <input type="button" value="Red Filter" onclick="doRed()" class="btn">
+      <input type="button" value="Make Blur" onclick="doBlur()" class="btn">
+      <input type="button" value="Rainbow Filter" onclick="doRainbow()" class="btn">
+      <p></p>
+      <input type="button" value="Reset Image" onclick="resetImage()" class="restbt">
+    </div>
+  </div>
+
+</body>

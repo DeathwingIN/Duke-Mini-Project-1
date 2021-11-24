@@ -1,0 +1,77 @@
+body
+{
+  background-color:#050708;
+}
+
+h1 
+{
+   padding: 12px 12px;
+   text-align-last: center;
+   color:#050708;
+   font-size: 35px;
+}
+.main
+{
+    background-color: #c9d7dc;
+    border-radius: 30px;
+    border: 8px solid #49646f;
+    width: 900px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+.head1
+{
+ border-radius: 15px;
+ margin-top: -23px;
+}
+
+.candiv 
+{
+  position: relative;
+  border-radius: 15px;
+  background-color: #8ca9b3;
+  border: solid;
+  width: 700px;
+  border-width: 0px;
+  margin: auto;
+  padding: 0px 17px 5px 12px;;
+}
+
+canvas 
+{
+  border-radius: 15px;
+  width: 600px;
+  height: 400px;
+  margin: 50px;
+  background-color: #b5c7ce;
+  border: 1px solid #49646f;
+}
+
+.buttondiv 
+{
+  border-radius: 15px;
+  width: 700px;
+  margin: auto;
+  padding: 5px 17px 5px 17px;;
+  font-family: calibri;
+  text-align: center;
+}
+
+.restbt
+{
+  background-color: #60002c;
+  color: #c9d7dc;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.btn
+{
+  background-color: #ffc6e0;
+  color: #000;
+  border-radius: 3px;
+  font-weight: bold;
+}
